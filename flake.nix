@@ -21,7 +21,7 @@
             # project-specific build inputs
             #bun
             #deno
-            nodejs_18  # v18.20.2 LTS (in nixos-unstable)
+            nodejs_20  # v20.12.2 (in nixos-unstable)
             yarn-berry  # most recent version 4.1.1, package `yarn` is deprecated
           ];
           env = {
