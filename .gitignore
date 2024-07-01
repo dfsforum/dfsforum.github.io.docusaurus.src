@@ -131,8 +131,14 @@ static/tmp
 # # Node #
 # ###########
 /node_modules
-npm-debug.log*
 .yarn
+.pnp.cjs
+.pnp.cjs*
+*.pnp.cjs
+.pnp.loader.mjs
+.pnp.loader.mjs*
+*.pnp.loader.mjs
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
